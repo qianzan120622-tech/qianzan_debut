@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+# 注意：loaderVersion 保留占位符通常没问题，或者你可以写 "[2,)"
+
+license="All Rights Reserved" # 或者写 MIT
+
+[[mods]]
+# 🚨 重点 1：这里必须和 Java 代码里的 MODID 完全一致！
+modId="qianzan"
+
+# 建议写死一个版本号，方便管理
+version="1.0.0"
+
+# 🚨 重点 2：这是游戏里显示的模组名字
+displayName="千斩模组"
+
+# 你的名字
+authors="qianzan"
+
+# 模组描述
+description='''
+添加了千斩剑和剑气技能的酷炫模组。
+'''
+
+# 🚨 重点 3：依赖项的标题也要改！
+# 这里的 [[]] 里面必须是 dependencies.你的modid
+[[dependencies.qianzan]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)" # 对应 NeoForge 1.21.1
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.qianzan]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)" # 限制在 1.21.1 版本
+ordering="NONE"
+side="BOTH"

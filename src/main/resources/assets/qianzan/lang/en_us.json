@@ -1,0 +1,9 @@
+{
+  "item.qianzan.qianzan": "QianZan Sword",
+  "item.qianzan.qianzan_beam_sprite": "QianZan Beam",
+  "itemGroup.qianzan": "QianZan Mod",
+  "key.qianzan.shoot": "QianZan - Shoot",
+  "key.qianzan.orbit": "QianZan - Orbit",
+  "key.categories.qianzan": "QianZan Mod Keys",
+  "entity.qianzan.qianzan_beam": "QianZan Beam"
+}
